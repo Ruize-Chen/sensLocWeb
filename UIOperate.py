@@ -255,7 +255,7 @@ if len(files) == 0:
 
 
 selected_file = st.sidebar.selectbox(
-    "Excel File",
+    "Project Name",
     files
 )
 
@@ -279,7 +279,7 @@ sheets = load_excel(
 
 
 selected_sheet = st.sidebar.selectbox(
-    "Sheet",
+    "Sensitivity of Interest",
     sheets
 )
 
@@ -326,7 +326,7 @@ if len(value_cols)==0:
 
 
 value_col = st.sidebar.selectbox(
-    "Variable",
+    "Phase of Interest",
     value_cols
 )
 
