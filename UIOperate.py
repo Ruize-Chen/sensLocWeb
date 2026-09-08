@@ -43,7 +43,7 @@ DATA_FOLDER = "./"
 K_COLUMNS = [
     "logKow",
     "logKaw",
-    "logKwater"
+    "logkBioDeg"
 ]
 
 
